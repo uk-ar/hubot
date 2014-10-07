@@ -11,5 +11,9 @@ export HUBOT_TRAC_PASSWORD=admin
 export HUBOT_TRAC_JSONRPC=true
 export HUBOT_TRAC_SCRAPE=false
 
+export HUBOT_RSS_INTERVAL=60   # 60 sec
+export HUBOT_RSS_HEADER=:sushi: # RSS Header Emoji (default is "sushi")
+export DEBUG=hubot-rss-reader   # debug print
+
 ./bin/hubot -a kandan
 
