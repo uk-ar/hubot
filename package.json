@@ -16,11 +16,13 @@
   },
   "dependencies": {
     "hubot": ">=2.4.7",
-    "hubot-cron": "^0.2.6",
-    "hubot-rss-reader": "^0.5.3",
+    "hubot-cron": "uk-ar/hubot-cron",
+    "hubot-rss-reader": "uk-ar/hubot-rss-reader",
     "hubot-scripts": ">= 2.4.1",
     "jsdom": "^1.0.1",
-    "optparse": "1.0.3"
+    "optparse": "1.0.3",
+    "ntwitter": "*",
+    "faye": "*"
   },
   "engines": {
     "node": ">= 0.8.x",

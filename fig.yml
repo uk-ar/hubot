@@ -1,0 +1,7 @@
+hubot:
+  build: .
+  command: sh run.sh
+  links:
+    - redis
+redis:
+  image: redis
